@@ -55,26 +55,98 @@ Table of Contents:
 
 /*///////////// 3.3 Nav bar 3 /////////////*/
 
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*border: red dashed 1px*/
+}
+
+.logo-navbar3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 .navbar-three ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: flex-end;
     align-items: center;
 }
 
-.container {
+
+/*///////////// 3.4 Nav bar 4 /////////////*/
+
+/* Used Deepseek AI to solve this, I did not find a way to push the nav-links to the left with only flexbox. */
+
+.navbar-four {
     display: flex;
-}
-
-.navbar-logo {
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: space-between;
+    /*border: red dashed 1px;*/
 }
 
-/*///////////// 3.4 Faq /////////////*/
+.logo-navbar4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    /*border: red dashed 1px;*/
+}
 
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /*border: red dashed 1px;*/
+    margin-right: auto;
+    gap: 15px;
+}
 
+ .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*border: red dashed 1px;*/
+     gap: 10px;
+     list-style: none;
+}
+/*///////////// 3.5 Nav bar 5 /////////////*/
 
-/*///////////// 3.5 Footer /////////////*/
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /*border: red dashed 1px;*/
+}
+
+.logo-navbar5 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    /*border: red dashed 1px;*/
+}
+
+.nav-links5 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    /*border: red dashed 1px;*/
+}
+
+.nav-buttons5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*border: red dashed 1px;*/
+    gap: 10px;
+    list-style: none;
+}
