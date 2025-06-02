@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.page-container {
+    display: flex;
+    min-width: 100vh;
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 400px;
+    height: 100vh;
+    flex-basis: 250px;
+    max-width: 400px;
+}
+
+.content-area {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
