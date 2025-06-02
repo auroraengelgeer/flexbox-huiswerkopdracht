@@ -81,7 +81,7 @@ Table of Contents:
 
 /*///////////// 3.4 Nav bar 4 /////////////*/
 
-/* Used Deepseek AI to solve this, I did not find a way to push the nav-links to the left with only flexbox. */
+/* Used Deepseek AI to solve this, I did not find a way to push the nav-links to the left by only using flexbox. I choose margin-right: auto; for this. */
 
 .navbar-four {
     display: flex;
