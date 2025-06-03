@@ -1,0 +1,91 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Left Menu
+        3.2 Main Content
+        3.3 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-body {
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.container-right {
+    border: hotpink dashed 1px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: scroll;
+    flex-basis: 100%;
+    flex-shrink: 1;
+}
+
+.left-navbar {
+    border: blue dashed 1px;
+    min-width: 250px;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    height: 100%;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Left Menu /////////////*/
+
+.container-left-nav {
+    border: red dashed 1px;
+    display: flex;
+    height: 100vh;
+    flex-basis: 250px;
+}
+
+
+nav {
+    height: 100%;
+}
+/*///////////// 3.2 Main Content /////////////*/
+ header {
+     border: red dashed 1px;
+ }
+
+ main {
+     border: green dashed 1px;
+ }
+
+ footer {
+     border: orange dashed 1px;
+ }
+
+
+
+/*///////////// 3.3 Footer /////////////*/
+
+
+
